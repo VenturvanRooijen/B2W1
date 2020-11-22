@@ -1,0 +1,55 @@
+body {
+	margin: auto;
+	font-family: 'Archivo', sans-serif;
+
+}
+
+
+* {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	
+}
+
+nav {
+	margin-top: 40px;
+	margin: auto;
+	float:center;
+}
+
+ul {
+	background-color: #222931;
+	height: 50px;
+	width: 950px;
+	margin: auto;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	padding: 15px 10px ;
+
+}
+
+.header {
+	height: 50px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50px 300px 300px 300px 50px;
+	grid-template-rows: 575px 220px 150px 413px;
+}
+
+.header2 {
+	border: 2px solid black;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	position: left;
+}
+
+.logo {
+	padding-left: 360px;
+}
